@@ -1,0 +1,198 @@
+/* line 1, ../sass/index.scss */
+body {
+  margin: 0;
+  position: absolute;
+  width: 100%;
+  background-color: rgba(211, 211, 211, 0.23);
+  font-family: 'Abel', sans-serif;
+}
+
+#sidebar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    width: 200px;
+    background-color: #2a2b26;
+    width:15%;
+}
+#sidebar-right {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 200px;
+    width:15%;
+}
+
+
+footer{
+ 
+}
+
+.center-object{
+  display: block;
+  width: 60%;
+  margin-right: auto;
+  margin-left: auto;
+}
+h1{
+  text-align: center;
+}
+.artImages{
+  width:300px;
+  height: 200px;
+  position: relative;
+  top: 19px;
+  margin-left: 27px;
+}
+.brand{
+  min-height: 100px;
+  color: white;
+  text-align: center;
+  font-size: 23px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.2);
+}
+.logo{
+  padding-top: 30px;
+}
+.brandName{
+  padding: 0px;
+  margin: 17px;
+}
+.main-content{
+  display: inline;
+  width:85%;
+  margin-top: 10px;
+
+}
+ul{
+  text-decoration: none;
+  list-style-type:none;
+  width: 100%;
+  padding: 0px;
+}
+li{
+  text-align: center;
+  color:white;
+  padding-bottom: 20px;
+  font-size: 21px;
+}
+.sidebar-list{
+   color: rgba(255, 255, 255, 0.68);
+   text-decoration: none;
+
+}
+.artTitles{
+
+}
+.no-attrs{
+    color: #333;
+    cursor: default;
+    text-decoration: none!important;
+}
+.titleDiv{
+  background: 
+   linear-gradient(
+       to right,
+       red 0, 
+       red 30.3%,
+       #23b4b4 40.2%, 
+       #23b4b4 60.5%, 
+       #e1e1e1 66.6%, 
+       #e1e1e1 ) bottom no-repeat;
+   background-size:100% 4px, 100% 4px ;
+}
+.Articles{
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.artBox{
+  max-height: 300px;
+  min-height: 300px;
+  background-color: white;
+  margin: 0!important;
+  position: relative;
+  top: -10px;
+}
+.artBoxS{
+  max-height: none;
+}
+.text-content{
+  font-size: x-large;
+  position: relative;
+  top: 15px;
+}
+.read-more{
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  margin-right: 41px;
+  margin-bottom: 45px;
+  font-weight: 600;
+  font-size: initial;
+  color: #1babab;
+}
+.post-content{
+  float: right;
+}
+.article-input{
+  margin-top: 29px;
+  min-height: 160px;
+  
+}
+.post-form{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.fake-border{
+  border-top: 1px solid lightgray;
+}
+.save-post{
+  width: 100%;
+}
+.select-image{
+  margin-top: 25px;
+  margin-bottom: 16px;
+}
+.post-dec{
+  background-color: rgba(179, 169, 178, 0.12);
+  max-width: 848px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+  padding-bottom: 24px;
+  border-radius: 20px;
+}
+.post-h{
+  text-align: left;
+  position: relative;
+  left: 32px;
+  top: -23px;
+}
+.prevImg{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 32px;
+  max-width: 687px;
+  max-height: 400px;
+}
+.post-tabs{
+  text-align: center;
+  margin-bottom: 29px;
+}
+.post-tab{
+  font-size: xx-large;
+  padding: 12px;
+  background-color: #4ba34b;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  color: white;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.delete-tab{
+  background-color: #d60808!important;
+}
